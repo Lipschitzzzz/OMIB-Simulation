@@ -1,0 +1,82 @@
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: Validating connectivity with Goderya algorithm
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\utils\network_calculations\ybus_calculations.jl:318
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: The System has no islands
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\utils\network_calculations\ybus_calculations.jl:264
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: System doesn't contain Dynamic Branches
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_inputs.jl:210
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Wrapping generator-102-1
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_inputs.jl:151
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: ix_range=5:6 ode_range=1:2 inner_vars_range= 1:9
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_inputs.jl:160
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Using default mass matrix entries TGFixed
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\models\generator_models\tg_models.jl:6
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Using default mass matrix entries PSSFixed
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\models\generator_models\pss_models.jl:6
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Using default mass matrix entries AVRFixed
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\models\generator_models\avr_models.jl:6
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Using default mass matrix entries BaseMachine
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\models\generator_models\machine_models.jl:6
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Using default mass matrix entries SingleMass
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\models\generator_models\shaft_models.jl:6
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: The reference Bus has a Source connected to it. The frequency reference model will change to ConstantFrequency
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\frequency_reference.jl:70
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Simulation Inputs Created
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation.jl:221
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: Pre-Initializing Simulation States
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation.jl:263
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Start state intialization routine
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:158
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: Unit System changed to UnitSystem.SYSTEM_BASE = 0
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\base.jl:351
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: Validating connectivity with Goderya algorithm
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\utils\network_calculations\ybus_calculations.jl:318
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: The System has no islands
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\utils\network_calculations\ybus_calculations.jl:264
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: PowerFlow solve converged, the results have been stored in the system
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\utils\power_flow.jl:325
+┌ Info: 2022-11-14T15:24:48.241 [29032:1]: Unit System changed to UnitSystem.DEVICE_BASE = 1
+└ @ PowerSystems C:\Users\ALIENWARE\.julia\packages\PowerSystems\QT2dm\src\base.jl:351
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: Updating bus voltage magnitude and angle to match power flow result
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:20
+┌ Debug: 2022-11-14T15:24:48.241 [29032:1]: BUS 1 V_r = 1.05, V_i = 0.0
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:26
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: BUS 2 V_r = 1.039727418725999, V_i = 0.023809551641536846
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:26
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Updating Source internal voltage magnitude and angle
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:32
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Updating Dynamic Injection Component Initial Guess
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:53
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Initializing generator-102-1 - DynamicGenerator{BaseMachine, SingleMass, AVRFixed, TGFixed, PSSFixed}
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:62
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: No Dynamic Branches in the system
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation_initialization.jl:173
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: injection ode size = 2 branches ode size = 0
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\caches.jl:25
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Debug: 2022-11-14T15:24:48.242 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: injection ode size = 2 branches ode size = 0
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\caches.jl:83
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Residual from initial guess: max = 5.566402606627108e-7 at 1, total = -5.342477391228855e-9
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\nlsolve_wrapper.jl:82
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Start NLSolve System Run with trust_region and F_tol = 1.0e-7
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\nlsolve_wrapper.jl:126
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Evaluating Jacobian Function
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\jacobian.jl:98
+┌ Info: 2022-11-14T15:24:48.243 [29032:1]: Initialization non-linear solve succeeded with a tolerance of 1.0e-7 using solver trust_region. Saving solution.
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\nlsolve_wrapper.jl:65
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: Write initial guess vector using trust_region with tol = 1.0e-7 convergence = true
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\nlsolve_wrapper.jl:131
+┌ Info: 2022-11-14T15:24:48.243 [29032:1]: Attaching Perturbations
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation.jl:286
+┌ Debug: 2022-11-14T15:24:48.243 [29032:1]: The simulation has no perturbations
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation.jl:288
+┌ Info: 2022-11-14T15:24:48.243 [29032:1]: Simulations status = BUILT
+└ @ PowerSimulationsDynamics C:\Users\ALIENWARE\.julia\packages\PowerSimulationsDynamics\MfUsx\src\base\simulation.jl:406
